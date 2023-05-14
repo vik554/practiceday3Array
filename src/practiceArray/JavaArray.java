@@ -7,6 +7,9 @@ public class JavaArray {
         s1.frequencyofarray();
         s1.largestelement();
         s1.smallestelement();
+        s1.even_positon();
+        s1.Odd_position();
+
 
     }
 
@@ -84,4 +87,19 @@ public class JavaArray {
             System.out.println(arr[i]);
         }
     }
+
+    public void Odd_position() {
+        int arr[] = {56, 65, 44, 565, 64, 464, 46, 46};
+        System.out.println("elemennt at odd possition are : ");
+        for (int i = 0; i < arr.length; i++) {
+            if (i % 2 == 0) {
+                System.out.println(arr[i]);
+            }
+        }
+    }
 }
+
+
+
+
+
